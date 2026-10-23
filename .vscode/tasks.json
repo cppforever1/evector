@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "CMake: build eunsortedvector",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/out/build/GCC 16.0.1 x86_64-linux-gnu"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc",
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

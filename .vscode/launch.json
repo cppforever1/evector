@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug eunsortedvector",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/out/build/GCC 16.0.1 x86_64-linux-gnu/eunsortedvector",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: build eunsortedvector"
+        }
+    ]
+}
